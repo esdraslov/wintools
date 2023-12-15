@@ -5,5 +5,5 @@ import time
 def active(prog: str):
     os.system("wmic")
     time.sleep(10)
-    pyautogui.write(f"product where name='{prog}' call uninstall")
+    pyautogui.write(f"product where name='{prog}' call uninstall\n")
     time.sleep(60)
